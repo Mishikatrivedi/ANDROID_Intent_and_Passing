@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#275E35">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="598dp"
+        android:background="#246132"
+        android:backgroundTint="#2A651A"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:text="@string/Enter_name"
+        android:textColor="#4DB6AC"
+        android:textSize="30sp"></EditText>
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="445dp"
+        android:background="#246132"
+        android:backgroundTint="#2A651A"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:text="@string/Enter_age"
+        android:textColor="#4DB6AC"
+        android:textSize="30sp"></EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="486dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="197dp"
+        android:backgroundTint="#2A651A"
+        android:text="@string/register_here"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="134dp"
+        android:layout_height="129dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="267dp"
+        app:srcCompat="@android:drawable/arrow_down_float"
+        android:contentDescription="@string/image" />
+
+</RelativeLayout>
